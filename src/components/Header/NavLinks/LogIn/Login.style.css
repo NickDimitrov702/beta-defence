@@ -1,0 +1,44 @@
+.signe-in-for-wrapper {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    margin: 100px auto 150px auto;
+    box-shadow: 1px 1px 23px 5px rgba(0,0,0,0.32);
+    border-radius: 30px;
+    padding: 60px 60px 60px 60px;
+}
+
+.input-items {
+    height: 40px;
+    border-radius: 30px;
+    border: 1px solid rgb(175, 173, 173);
+    outline: none;
+    padding: 0 10px 0px 10px;
+}
+
+.lable-item {
+    text-align: center;
+    margin: 10px 0 10px 0;
+}
+
+.submit-button {
+    border-radius: 30px;
+    height: 40px;
+    width: 100px;
+    margin: 15px auto 0 auto;
+    font-size: 15px;
+    border: none;
+    outline: none;
+    background-color: rgb(212, 207, 198);
+
+}
+
+.submit-button:hover {
+    background-color: rgb(212, 207, 198);
+    box-shadow: 0 0 5px rgba(81, 203, 238, 1)
+}
+
+
+.input-items:focus {
+    box-shadow: 0 0 5px rgba(81, 203, 238, 1)
+}

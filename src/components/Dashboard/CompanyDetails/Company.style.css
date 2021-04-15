@@ -1,0 +1,88 @@
+
+.comapny-wrapper {
+    display: flex;
+    flex-direction: row;
+    max-width: 300px;
+    height: 400px;
+    flex-wrap: nowrap;
+    margin: 30px;
+    align-content: center;
+    
+}
+
+.comapnies {
+    display: flex;
+    flex-direction: column;
+    border-radius: 50px;
+    /* border: 1px solid black; */
+    width: 400px;
+    height: 370px;
+    margin: 20px;
+    align-items: center;
+    position: sticky;
+    /* border: 3px solid black; */
+    border-radius: 45px;
+    overflow: hidden;
+   
+    
+}
+
+.comapnies:hover {
+    /* background-color: rgba(255, 255, 0, 0.678); */
+    box-shadow: 2px 3px 20px 1px #000000;
+    transition: 1s;
+    border: 3px solid black;
+    border-radius: 45px 0px 45px 0px;
+    
+    
+    
+}
+
+.comapnies:not( :hover ){ 
+    /* box-shadow: 2px 3px 20px 1px #000000; */
+    transition: 1.5s;
+    /* border: 0px solid black; */
+    border-radius:45px;
+ }
+
+
+
+.games-list-items {
+    display: flex;
+    max-width: 300px;
+    align-items: flex-start;
+    flex-direction: column;
+    /* margin: 10px 10px 10px 10px; */
+    margin: auto;
+    
+}
+/* .company-logo-wrapper {
+    text-align: center;
+} */
+
+.company-links{
+    text-decoration: none;
+    font-size: 19px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: black;
+    
+}
+
+.company-links:hover {
+    color: green;
+}
+
+.review-content {
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+}
+
+.reveiw-headers{
+    margin: 0;
+}
+
+.games {
+    width: 150px;
+    list-style: none;
+}

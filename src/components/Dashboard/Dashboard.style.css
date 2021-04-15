@@ -1,0 +1,16 @@
+
+.main-content {
+    display: flex;
+    max-width: 1500px;
+    /* width: auto; */
+    flex-direction: row;
+    height: auto;
+    flex-wrap: wrap;
+    margin: 30px auto ;
+    /* background-image: url('../../resources/Johny.jpg'); */
+    border: 5px solid black;
+    border-radius: 45px 0px 45px 0px;
+}
+
+
+
