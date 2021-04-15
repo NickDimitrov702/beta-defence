@@ -1,0 +1,8 @@
+.app {
+    background-image: url('../resources//NightCity.jpg');
+    background-position: top;
+    margin: 0;
+    padding: 0;
+    width: auto;
+    height: 100vw;
+}

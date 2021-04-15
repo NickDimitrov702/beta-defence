@@ -1,6 +1,8 @@
 import style from './Company.style.css'
-import {Link} from 'react-router-dom'
-import {getOne} from '../../../Services/GameServices'
+import { Link } from 'react-router-dom'
+import { getOne } from '../../../Services/GameServices'
+import Comments from '../../PrivetComponents/Comments/Comments'
+
 
 function Company({
     developer,
@@ -39,9 +41,11 @@ function Company({
                                 <h3 className="reveiw-headers">Gameplay</h3>
                                 <p>{gameplay}</p>
                             </section></li>
-                        </ul>
+                    </ul>
                 </section>
+                <Comments />
             </section>
+
         </section>
     );
 }

@@ -1,0 +1,5 @@
+.comments-wrapper {
+    display: flex;
+    width: 300px;
+    flex-direction: column;
+}

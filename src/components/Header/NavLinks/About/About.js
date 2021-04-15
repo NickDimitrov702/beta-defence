@@ -4,6 +4,7 @@ import style from './About.style.css';
 function About() {
 
     return(
+        <>
         <section className="about-wrapper">
             <section className="about-content">
                 <h3>Welcome to Games-Info</h3>
@@ -15,6 +16,7 @@ function About() {
                 </p>
             </section>
         </section>
+        </>
     );  
 }
 

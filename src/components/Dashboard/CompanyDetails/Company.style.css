@@ -8,6 +8,7 @@
     margin: 30px;
     align-content: center;
     
+    
 }
 
 .comapnies {
@@ -23,8 +24,14 @@
     /* border: 3px solid black; */
     border-radius: 45px;
     overflow: hidden;
+    background-image: url('../../../resources/Johny.jpg');
    
     
+}
+
+.comapnies {
+    background-position: center;
+    background-size:cover;
 }
 
 .comapnies:hover {
@@ -32,16 +39,14 @@
     box-shadow: 2px 3px 20px 1px #000000;
     transition: 1s;
     border: 3px solid black;
+    background-image: unset;
+    background-color:rgb(201, 75, 75);
     border-radius: 45px 0px 45px 0px;
-    
-    
-    
+
 }
 
 .comapnies:not( :hover ){ 
-    /* box-shadow: 2px 3px 20px 1px #000000; */
     transition: 1.5s;
-    /* border: 0px solid black; */
     border-radius:45px;
  }
 
@@ -63,19 +68,24 @@
 .company-links{
     text-decoration: none;
     font-size: 19px;
+    font-weight: bolder;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: black;
     
 }
 
 .company-links:hover {
-    color: green;
+    color: rgb(51, 235, 51);
+
 }
 
 .review-content {
     display: flex;
     flex-direction: column;
     text-align: start;
+    font-size: 19px;
+    font-weight: bolder;
+    text-shadow:2px 3px 20px 1px #000000;
 }
 
 .reveiw-headers{
@@ -86,3 +96,10 @@
     width: 150px;
     list-style: none;
 }
+
+.description {
+    font-size: 15px;
+    font-weight: bolder;
+}
+
+
