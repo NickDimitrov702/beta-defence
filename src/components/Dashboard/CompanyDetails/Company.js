@@ -1,7 +1,8 @@
 import style from './Company.style.css'
 import { Link } from 'react-router-dom'
-import { getOne } from '../../../Services/GameServices'
+import { getOne } from '../../../Services/ComapnyInformation'
 import Comments from '../../PrivetComponents/Comments/Comments'
+// import {useRef} from 'react'
 
 
 function Company({
@@ -9,22 +10,28 @@ function Company({
     gamename,
     description,
     story,
-    gameplay
+    gameplay,
+    dev,
+    game,
+    rev
 }) {
+    
+
+    
 
     return (
         <section className="comapny-wrapper">
             <section className="comapnies">
                 <div className="company-logo">
                     <p className="company-logo-wrapper">
-                        <Link onClick={getOne} className="company-links" to="/company-details">{developer}</Link>
+                        <Link onClick={getOne}  className="company-links" to="/get-one-review">{dev}</Link>
                     </p>
                 </div>
                 <section className="review-content">
                     <ul className='games-list-items'>
                         <li className="games">
-                            <h3 className="game-header">{gamename}</h3>
-                            <p className="description">{description}</p>
+                            <h3 className="game-header">{game}</h3>
+                            <p className="description">{rev}</p>
                         </li>
                     </ul>
                 </section>

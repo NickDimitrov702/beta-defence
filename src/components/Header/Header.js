@@ -37,6 +37,10 @@ function Header({
                 <li className="link-items">
                     <NavLink to="/about">About</NavLink>
                 </li>
+                {currentUser.email ? (<li className="link-items">
+                    <NavLink to="/adding-game">Add game review</NavLink>
+                </li>) : ('')}
+                
                 {!currentUser.email ? (<li className="link-items">
                     <NavLink to="/signup">Register</NavLink>
                 </li>) : ('')}

@@ -1,0 +1,15 @@
+.adding-game-wrapper {
+    display: flex;
+    width: 50%;
+    margin: 20px auto;
+    flex-direction: column;
+}
+
+label{
+    color: aliceblue;
+}
+
+.button {
+    color: beige;
+    background-color: rgb(43, 26, 26);
+}
